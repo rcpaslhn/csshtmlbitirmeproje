@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+.hr{ background-color: grey; height: 5px;}
+section{display: grid; grid-template-columns: 70% 30%; }
+input{
+    width: 70%; height: 60px; border-radius: 5px;
+}
+.inputlar{
+    display: grid; grid-template-columns: repeat(2,1fr);
+}
+.inputlar div{
+    padding-top: 20px;
+}
+.yazibölüm{
+    padding-top: 50px;
+}
+ul li{ list-style-type: none; padding-top: 20px; color: white;}
+h2{ color: white;}
+footer{ display: flex; justify-content: space-between; background-color: rgb(49, 46, 46); padding-top: 50px;}
+.galeri{display: grid; grid-template-columns:repeat(2,1fr);gap:5px}
+.galeri img{width: 100px; height: 100px; margin-top: 20px; border-radius: 10px;}
+.grid .grit{ display: flex; flex-direction: column; gap: 5px; ;}
+.grid .grit li { list-style-type:none; padding-top: 30px; color: white;}
+h3{ color: white; text-decoration:bold;}
+.kurs ul li{ text-decoration: none; list-style-type: none; margin-top:40px; }
+a{color: white; text-decoration: none;}
+.div1 ul li{ color: black;}
+.harita{ background-color: grey;}
+
+@media  screen and (max-width:1300px){
+            footer{
+                display: grid; grid-template-columns: repeat(2,1fr);  align-items: center; gap: 20px;
+            }
+        }
+        @media  screen and (max-width: 900px){
+            .forum{
+                display: grid; grid-template-columns: repeat(1,1fr);
+            }
+
+        }
+
+        @media  screen and (max-width: 650px){
+            .div2 ul {
+                display: grid; grid-template-columns: repeat(1,1fr);
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook fa-flip fa-2xl "></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter fa-spin fa-2xl" ></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-spin fa-spin-reverse fa-2xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp fa-spin fa-2xl"></i></a></li>
+            </ul>
+
+        </div>
+
+      <H1>NİĞDE ŞAHİN SÜRÜCÜ KURSU</H1>
+
+        <div class="div2">
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> 03582188332</li>
+                <li><i class="fa-solid fa-tree"></i>Adres</li>
+                <li><i class="fa-regular fa-clock"></i>09:00-20:00</li>
+            </ul>
+
+        </div>
+    </header>
+ <div class="hr"></div>
+
+ <section class="forum">
+<div class="form">
+
+       <h2 style="padding: 30px 10px; text-align: center;">BAŞVURU FORMU</h2>
+                
+     <div class="inputlar">
+      <div> <input type="text" placeholder="Adınız soyadınız"></div> 
+      <div> <input type="text" placeholder="E-posta adresiniz"></div> 
+      <div> <input type="text" placeholder="Telefon numaranız"></div> 
+      <div> <input type="date" placeholder="Doğum Tarihiniz"></div> 
+    </div>
+    <div style="border: 1px solid black; width: 85%; height: 60px; padding-top: 20px; margin-top: 20px; background-color: white;">
+        Kayıt Olmak için İstediğiniz Sürücü sınıfı Belgesini Seçiniz <select name="">
+
+<option value="">A1 Sınıfı</option>
+<option value="">A2 Sınıfı</option>
+<option value="">B Sınıfı</option>
+<option value="">B otomatik</option>
+<option value="">C Sınıfı</option>
+<option value="">D Sınıfı</option>
+<option value="">E Sınıfı</option>
+</select>
+ </div>
+
+ <div style="margin-top: 20px;"><textarea style="font-size: 15px;" cols="40" rows="10">Mesajınız:</textarea></div>
+
+ <div style="margin-top: 20px;"><input style="background-color: blue; color: white; width: 20%;" type="submit" value="Gönder"></div>
+</div>
+
+<div class="kayit">
+    <h2 style="padding: 30px 10px; text-align: center;">KAYIT İÇİN GEREKLİ BELGELER</h2>
+    <ol>
+        <ul>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>Nufüs Cüzdanı Fotokopisi</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>4 Adet Biometrik Fotoğraf</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>İkametgah veya Adres Belgesi (E-Devlet'ten Alabilirsiniz)</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>Sabıka Kaydı (E-Devlet'ten Alabilirsiniz)</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>Öğrenim Belgesi veya Diploma Fotokopisi</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>Sağlık Raporu (Aile Hekiminden Ehliyet Almak İçin)</li>
+        <li><i class="fa-sharp fa-solid fa-check fa-beat-fade fa-xl" style="color: #b5262e;"></i>Kan Grubu Kartı</li>
+    </ul>
+</ol>
+</div>
+
+</section>
+<div class="harita">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6290.5355930835!2d34.672615841423244!3d37.97087924556871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1529e7e658648109%3A0x4e3489cfaa026040!2zTsSwxJ5ERSDDlnplbCDFnmFoaW4gU8O8csO8Y8O8IEt1cnN1!5e0!3m2!1str!2str!4v1698354595484!5m2!1str!2str" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer>
+    <div class="foot">
+        <UL>
+            <li><img src="https://kursum.app/wp-content/uploads/2020/12/437-2.png " alt=""></li>
+            <li style="padding-top: 20px; padding-bottom: 20px;"><h3>Mobil Uygulamalarımız</h3></li>
+      <div><img src="https://freepiker-storage.s3.amazonaws.com/preview/preview_d605be53ac335ec29de57d357cb82436.jpg" alt="" style="width: 100px; height: 100px;"></div>
+                
+                    
+                
+            
+        </UL>
+    </div>
+    <div class="grid" ><H3>HIZLI ERİŞİM</H3>
+    <ul class="grit">
+        <li><a href="#">Anasayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Araçlarımız</a></li>
+        <li><a href="#">Araçlarımız</a></li>
+     
+    </ul>
+</div>
+    <div class="kurs"><H3>İLETİŞİM</H3>
+        <ul>
+            <li><i class="fa-solid fa-house fa-2xs"></i>Ahipaşa mah.51100 Niğde</li>
+            <li><i class="fa-solid fa-phone fa-2xs"></i>03456458767</li>
+            <li><i class="fa-regular fa-envelope fa-2xs"></i>sahi.51@gmail.com</li>
+        </ul>
+    </div>
+    <div class=""><H3>GALERİ</H3>
+   <div class="galeri">
+    <img src="https://pos.bakiyem.com/surucuimg/47FCFB334109B2CCAB77CEAA9833BDD9.jpeg" alt="" >
+    <img src="https://pos.bakiyem.com/surucuimg/40B36C4657130E2C95C6A27A584E6F31.jpeg" alt="">
+    <img src="https://pos.bakiyem.com/surucuimg/DFA6AECC980AD0F48049651F3DB1DCA3.jpeg" alt="">
+    <img src="https://pos.bakiyem.com/surucuimg/54D352FFC3B33477B3FFB40DFFDC8FA6.jpeg" alt="">
+    <img src="https://pos.bakiyem.com/surucuimg/09BB2947BD779F27CFAD124D42A21650.jpeg" alt="">
+   </div>
+    </div>
+
+</footer>
+
+
+    
+
+
+
+
+
+
+
+
+ <script src="https://kit.fontawesome.com/feca65b503.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+<style>
+    *{padding: 0px; margin: 0px; box-sizing: border-box;}
+    main{  display: grid; grid-template-columns: 40% 60% ; background-color: #F4CE14;}
+  
+    .giris{border: 3px solid white; border-radius: 10px; height: 300px; width: 300px; margin:auto ;background-image: url("./kurs\ foto.png"); background-size: cover;  background-repeat: no-repeat; background-position: center; display: flex; padding-top: 50px; flex-direction: column; align-items: center; gap: 25px;  box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);
+-webkit-box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);
+-moz-box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);}
+.foto{ margin-top: 40px;}
+h1{padding-top: 12px;}
+.hr{width: 100%; height: 25px; background-color: grey;}
+nav{ background-color: #F4CE14; height: 200px; margin-top: 0px;}
+ul {list-style-type: none; display: flex; justify-content: center; align-items: center; gap: 50px; color: #F4CE14; padding: 100px;}
+a{color: white;}
+
+@media  screen and (max-width: 650px){
+            .div2 ul {
+                display: grid; grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media  screen and (max-width: 900px){
+            main{
+                display: grid; grid-template-columns: repeat(1,1fr);
+          align-items: center;
+            }
+        }
+</style>
+
+
+</head>
+<body> 
+    <main>
+  
+    <div class="giris  ">
+     
+        <div ><h1>Kursiyer Girişi</h1></div>
+       <div ><input type="text" placeholder="TC Kimlik Numaranız" style="margin-bottom: 10px; height: 100%;" ></div> 
+     <div> <input type="submit" value="Giriş" style="background-color: blue; width: 180px ; height: 40px; border-radius: 5px; color: white;"></div>
+
+    </div>
+
+
+
+
+    <div class="foto">
+        <img src="https://kursum.app/wp-content/uploads/2020/12/437-5.png" alt="" style="width: 80% ;border-radius: 10px;box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);
+        -webkit-box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);
+        -moz-box-shadow: 53px 42px 31px 4px rgba(13,13,11,0.75);">
+    </div>
+
+  
+</main>
+<div class="hr"></div>
+
+
+<nav>
+    <div class="fot">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook fa-flip fa-2xl "></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter fa-spin fa-2xl" ></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-spin fa-spin-reverse fa-2xl"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp fa-spin fa-2xl"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
+   
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/feca65b503.js" crossorigin="anonymous"></script>
+</body>
+</html>
